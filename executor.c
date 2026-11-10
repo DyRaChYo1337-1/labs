@@ -1,11 +1,11 @@
 
 #include <stdio.h>
 
-#include "lab_2/lab_2.c"
-#include "lab_3/lab_3.c"
-#include "lab_4/lab_4.c"
-#include "lab_5/lab_5.c"
-#include "lab_6/lab_6.c"
+void lab_2(void);
+void lab_3(void);
+void lab_4(void);
+void lab_5(void);
+void lab_6(void);
 
 int main(void) {
     int choice;
@@ -19,8 +19,9 @@ int main(void) {
         printf("0. Exit\n");
         printf("Choose: ");
 
-        if (scanf("%d", &choice) != 1)
+        if (scanf("%d", &choice) != 1) {
             return 1;
+        }
 
         switch (choice) {
             case 2: lab_2(); break;
