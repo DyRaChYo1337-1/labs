@@ -210,7 +210,7 @@ void lab_3(void) {
                 break;
             }
             default:
-                printf("\nТакого завдання немає! Спробуйте ще раз.\n");
+                printf("\nТакого завдання немає.\n");
                 break;
         }
     }

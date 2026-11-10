@@ -242,14 +242,9 @@ void lab_4(void) {
                 break;
             }
             default: {
-                printf("Такого завдання немає! Спробуйте ще раз.\n");
+                printf("Такого завданні nema\n");
                 break;
             }
         }
     }
-}
-
-int main(void) {
-    lab_4();
-    return 0;
 }

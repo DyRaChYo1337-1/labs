@@ -5,6 +5,7 @@
 #include "lab_3/lab_3.c"
 #include "lab_4/lab_4.c"
 #include "lab_5/lab_5.c"
+#include "lab_6/lab_6.c"
 
 int main(void) {
     int choice;
@@ -13,7 +14,8 @@ int main(void) {
         printf("\n2. Lab 2\n");
         printf("3. Lab 3\n");
         printf("4. Lab 4\n");
-        printf("5. lab 5\n");
+        printf("5. Lab 5\n");
+        printf("6. Lab 6\n");
         printf("0. Exit\n");
         printf("Choose: ");
 
@@ -25,6 +27,7 @@ int main(void) {
             case 3: lab_3(); break;
             case 4: lab_4(); break;
             case 5: lab_5(); break;
+            case 6: lab_6(); break;
             case 0: return 0;
             default: printf("Invalid choice\n");
         }

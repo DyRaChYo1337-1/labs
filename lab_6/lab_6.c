@@ -222,7 +222,3 @@ void lab_6(void) {
     }
 }
 
-int main(void) {
-    lab_6();
-    return 0;
-}
